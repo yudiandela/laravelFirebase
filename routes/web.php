@@ -16,3 +16,4 @@
 // });
 
 Route::get('/', 'FirebaseController');
+Route::get('/showdata', 'FirebaseShowDataController');
