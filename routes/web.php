@@ -15,5 +15,5 @@
 //     return view('welcome');
 // });
 
-Route::get('/', 'FirebaseController');
+Route::get('/', 'FirebaseInsertDataController');
 Route::get('/showdata', 'FirebaseShowDataController');
